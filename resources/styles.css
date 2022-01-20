@@ -1,0 +1,125 @@
+body {
+   background-color: rgb(40, 43, 46);
+   color: rgb(255, 255, 255);
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+   font-size: 35px;
+
+   /* make all text unselectable */
+   -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+
+   /* These are to fix navbar */
+   padding:0;
+   margin:0;
+}
+
+.topBar {
+   background-color: rgb(60, 64, 68);
+   text-align: left;
+   padding:0;
+   margin:0;
+}
+
+.writeUp {
+   font-size: 16px;
+   width: 600px;
+   margin: auto; /* centers the text */
+   text-align: left;
+}
+
+.sources {
+   font-size: 16px;
+   color: rgb(220, 220, 220);
+   width: 600px;
+   margin: auto;
+   text-align: left;
+}
+
+.link {
+   color: rgb(82,186,255);
+}
+
+.sliderContainer {
+   width: 60%;
+   margin: auto;
+}
+
+.slider {
+   width: 90%;
+   height: 10px;
+   border-radius: 5px;
+   background: rgb(100, 107, 111);
+   -webkit-appearance: none;
+}
+
+.slider::-webkit-slider-thumb {
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   background: rgb(161, 11, 11);
+   cursor: pointer;
+   -webkit-appearance: none;
+   appearance: none;
+}
+
+.slider::-moz-range-thumb {
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   background: rgb(161, 11, 11);
+   cursor: pointer;
+}
+
+.sliderInfo {
+   display: grid;
+   grid-template-columns: auto auto auto auto auto auto auto auto auto;
+   font-size: 14px;
+}
+
+.mainMap {
+   position: relative;
+}
+
+.map1 {
+   position: relative;
+   top: 0;
+   left: 0;
+}
+
+.mapLanugageItem {
+   position: absolute;
+   top: 0%;
+   left: 16.5%;
+}
+
+.hoverwrap img {
+   width: 100%;
+}
+
+.hovercap {
+   box-sizing: border-box;
+   width: 67%;
+   margin-left: 16.5%;
+   position: absolute;
+   bottom: 1.2%;
+   background-color: rgba(0, 0, 0, 0.5);
+   font-size: 16px;
+   color: white;
+   z-index: 999;
+}
+
+.hovercap {
+   visibility: none;
+   opacity: 0;
+   transition: opacity 0.3s;
+}
+
+.hoverwrap:hover .hovercap {
+   visibility: visible;
+   opacity: 1;
+}

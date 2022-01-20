@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- Important stuff -->
+      <meta charset="utf-8" />
+      <title>Evolution of the Anatolian Lanugage</title>
+
+      <!-- Links -->
+      <link rel="stylesheet" href="resources/styles.css" />
+      <script src="resources\script.js" defer></script>
+
+      <!-- Font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+        rel="stylesheet"
+      />
+   </head>
+
+   <!-- BODY ----------------------------------->
+   <body>
+      <!-- Top bar -->
+      <div class="topBar">
+         <span><b>Evolution of the Anatolian Language</b></span>
+      </div>
+
+      <!-- So the navbar isn't part of the map -->
+      <br />
+
+      <!-- THE MAP -->
+      <div class="mainMap">
+         <img class="map1" src="imgs/mapimage.png" style="width:67%;" draggable="false" ondragstart="return false;" /> <!-- pointer events: none; is so you can't drag the image-->
+
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Anatolian" src="imgs/Anatolian.png" style="width:7%; margin-top: 24.8%; margin-left: 21.7%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Anatolian</b>, the language of ancient Anatolia (modern day Turkey), is a language which all modern Indo-European languages can be traced back to. The language had only two tenses (present-future and preterite), and used the subject-object-verb word order.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Indo-Iranian" src="imgs/Indo-Iranian.png" style="width:7%; margin-top: 25.2%; margin-left: 28%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Indo-Iranian</b> branched off from Anatolian, and was the predecessor of Kurdish, Persian, Urdu, Sanskrit and Hindi</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Balto-Slavic" src="imgs/Balto-Slavic.png" style="width:7%; margin-top: 15.8%; margin-left: 16.3%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Balto-Slavic</b> was a language that branched off from Anatolian at around 5000 BCE, and is the origin of all baltic and slavic languages (including Russian, Lithuanian, Polish, etc.)</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Hittite" src="imgs/Hittite.png" style="width:7%; margin-top: 24.8%; margin-left: 21.7%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Hittite</b> was a language of ancient Anatolia, and is the best known anatolian language.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Albanian" src="imgs/Albanian.png" style="width:4%; margin-top: 24%; margin-left: 17%; z-index:600;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Albanian</b> is a lanugage with about 6 million native speakers today. It was spoken in Greece from (roughly) 3000 BCE to 2500 BCE.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Armenian" src="imgs/Armenian.png" style="width:5%; margin-top: 26%; margin-left: 27%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Armenian</b> is an Indo-European language belonging to its own branch, which split off of Anatolian. It has about 6 million native speakers.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Greek" src="imgs/Greek.png" style="width:4%; margin-top: 24.5%; margin-left: 18.8%; z-index: 520;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Greek</b> is the oldest language on this map which is still spoken today. It has about 13 million native speakers.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Germanic" src="imgs/Germanic.png" style="width:8%; margin-top: 14.5%; margin-left: 12%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Germanic</b> was the predecessor of German. Despite it appearing to branch off from Balto-Slavic, it is not a Slavic language.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="LuvianLycian" src="imgs/LuvianLycian.png" style="width:7%; margin-top: 25.3%; margin-left: 21.7%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Luvian and Lycian</b> were Anatolian languages, which were also spoken in what is now Turkey.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Old-Persian" src="imgs/Old-Persian.png" style="width:9%; margin-top: 27.7%; margin-left: 28%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Old Persian</b> was a descendant of Indo-Iranian, and predecessor of Persian. Old Persian spread a great distance to the East.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Vedic-Sanskrit" src="imgs/Vedic-Sanskrit.png" style="width:7%; margin-top: 29%; margin-left: 35.5%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Vedic Sanskrit</b> was a descendant of Indo-Iranian, and predecessor of Sanskrit.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Celtic" src="imgs/Celtic.png" style="width:8%; margin-top: 15.2%; margin-left: 5.5%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Celtic</b> is a language which branched from Anatolian, and the predecessor of Irish and Scottish.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Italic" src="imgs/Italic.png" style="width:5%; margin-top: 22.5%; margin-left: 13.5%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Italic</b> was the predecessor of all Romance languages, including Latin, the official lanuguage of Ancient Rome.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Slavic" src="imgs/Slavic.png" style="width:13%; margin-top: 11.8%; margin-left: 16.7%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Slavic</b> split off from Balto-Slavic at about 1000 BCE, and is the parent language of Russian, Czech, Polish, Ukraian, and many other languages.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Baltic" src="imgs/Baltic.png" style="width:5%; margin-top: 12%; margin-left: 18.7%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Baltic</b> split off from Balto-Slavic at about 1000 BCE, and is the parent language of Lithuanian.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Kurdish" src="imgs/Kurdish.png" style="width:5%; margin-top: 29%; margin-left: 28%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Kurdish</b> is an Indo-Iranian language. It is not an official language in any country, but has about 25 million native speakers across various countries.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Sanskrit" src="imgs/Sanskrit.png" style="width:7%; margin-top: 29%; margin-left: 35.5%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Sanskrit</b> is a descendant of Vedic Sanskrit. It is still spoken in some parts of India today, but very little. It is offered as an optional language in many Indian schools.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="SlovenianSerbo-Croatian" src="imgs/SlovenianSerbo-Croatian.png" style="width:4%; margin-top: 22%; margin-left: 16.5%; z-index: 502;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Slovenian and Serbo-Croatian</b> are slavic languages still spoken today in Slovenia and Croatia respectively.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Scottish" src="imgs/Scottish.png" style="width:2%; margin-top: 13%; margin-left: 7%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Scottish</b>, specifically Scottish Gaelic, is a successor of Celtic spoken in Scotland. The lanugage is considered at risk of dying out, with only 1.5 million speakers in Scotland (as of 2011). The primary language spoken in Scotland is English.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Irish" src="imgs/Irish.png" style="width:1.5%; margin-top: 16%; margin-left: 5.5%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Irish</b> is a successor of Celtic spoken in Ireland. Only about 1.7% of the population in Ireland speak the lanugage, however, with the country's primary language being English.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Turkish" src="imgs/Turkish.png" style="width:7%; margin-top: 25%; margin-left: 22%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Turkish</b> is the official language of Turkey, with approximately 88 million native speakers.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Persian" src="imgs/Persian.png" style="width:4.5%; margin-top: 28%; margin-left: 33%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Persian</b> is a language descended from Old Persian. It is spoken today in Iran, Iraq, Russia, Tajikistan, Uzbekistan, Azerbaijan and Afghanistan. It has an estimated 110 million speakers.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="German" src="imgs/German.png" style="width:5%; margin-top: 16.5%; margin-left: 11.5%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>German</b> is the successor of Germanic. It is an official language in 6 countries: Germany, Austria, Belgium, Liechtenstein, Luxembourg and Switzerland. It has an estimated 95 million speakers.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Dutch" src="imgs/Dutch.png" style="width:2%; margin-top: 17.8%; margin-left: 10.3%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Dutch</b> is a language descended from Germanic, with approximately 23 million native speakers. It is the official language of the Netherlands.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Hindi" src="imgs/Hindi.png" style="width:13.5%; margin-top: 31%; margin-left: 37%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Hindi</b> is an Indo-Iranian language mainly derived from Sanskrit, and is spoken in India. It has about 342 million native speakers, which is the 4th most in the world.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="English" src="imgs/English.png" style="width:5%; margin-top: 13.7%; margin-left: 5.8%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>English</b> is a descendant of Germanic. It is estimated that about a third of the world's population can speak the language, and it is an official language in 67 countries. There are about 400 million native English speakers across the globe.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Italian" src="imgs/Italian.png" style="width:6.5%; margin-top: 22.5%; margin-left: 12%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Italian</b> is a Romance language and descendant of Italic. It is the official language of Italy, and has about 64 million native speakers.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="French" src="imgs/French.png" style="width:7%; margin-top: 20%; margin-left: 8%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>French</b> is a romance language and descendant of Italic. It is the official language of France, and has about 80 million native speakers.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Swedish" src="imgs/Swedish.png" style="width:6%; margin-top: 6.2%; margin-left: 14%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Swedish</b> is a Germanic language. It is the official lanugage of Sweden, and has about 9 million native speakers.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Armenian_1000AD" src="imgs/Armenian_1000AD.png" style="width:2%; margin-top: 25%; margin-left: 29.5%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Armenian</b> is an Indo-European language belonging to its own branch, which split off of Anatolian. It has about 6 million native speakers.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Lithuanian" src="imgs/Lithuanian.png" style="width:5%; margin-top: 12%; margin-left: 19%; z-index: 530;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Lithuanian</b> is a language which originated from Baltic. It is the official language of Lithuania, and has approximately 3 million native speakers.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Russian" src="imgs/Russian.png" style="width:12%; margin-top: 7.6%; margin-left: 22.2%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Russian</b> originated from Slavic. It is the most widely spoken Slavic language, with approximately 170 million native speakers.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Portuguese" src="imgs/Portuguese.png" style="width:1.5%; margin-top: 23.7%; margin-left: 5.6%; z-index:501;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Portuguese</b> is a Romance language which originated from Italic. It has roughly 220 million native speakers around the globe (mainly in Brazil). About 11 million of these native speakers live in Portugal.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Spanish" src="imgs/Spanish.png" style="width:4%; margin-top: 23.7%; margin-left: 6%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Spanish</b> is a Romance language which split off from Italic. It has roughly 470 million native speakers around the globe, making it the language with the second most native speakers in the world. Out of these speakers, about 40 million live in Spain.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Catalan" src="imgs/Catalan.png" style="width:1.5%; margin-top: 25%; margin-left: 9%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Catalan</b> is a Romance language which originated from Italic. It has roughly 5 million speakers.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Ukranian" src="imgs/Ukranian.png" style="width:7%; margin-top: 19.5%; margin-left: 22%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Ukranian</b> is a language which split off from slavic, and has about 40 million native speakers.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Norwegian" src="imgs/Norwegian.png" style="width:8%; margin-top: 1%; margin-left: 12.5%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Norwegian</b> is a language which split off from Germanic. It is mainly spoken in Norway, and has approximately 5 million native speakers.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Urdu" src="imgs/Urdu.png" style="width:5%; margin-top: 30%; margin-left: 37%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Urdu</b> is an Indo-Iranian language mainly derived from Persian. It has a total of about 86 million speakers.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Romanian" src="imgs/Romanian.png" style="width:7%; margin-top: 20.5%; margin-left: 17%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Romanian</b>, the official language of Romania, is a romance lanuguage and descendant of Italic. It has approximately 24 million native speakers.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Polish" src="imgs/Polish.png" style="width:5.5%; margin-top: 16.5%; margin-left: 15.5%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Polish</b> is a Slavic language. It has about 45 million native speakers, and is the official language of Poland.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Belarusian" src="imgs/Belarusian.png" style="width:8.5%; margin-top: 13.5%; margin-left: 19%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Belarusian</b> is a Slavic language. It is an official language in both Belarus and Poland, and has about 5 million native speakers.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Bulgarian" src="imgs/Bulgarian.png" style="width:5%; margin-top: 22%; margin-left: 19%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Bulgarian</b> is a Slavic language. It is the official language of Bulgaria, and has about 9 million native speakers.</div>
+         </div>
+
+         <div class="hoverwrap">
+            <img class="mapLanugageItem" id="Czech" src="imgs/Czech.png" style="width:3%; margin-top: 19%; margin-left: 16%;" draggable="false" ondragstart="return false;" />
+            <div class="hovercap"><b>Czech</b> is a Slavic language. It is the official language of the Czech Republic, and has approximately 11 million speakers.</div>
+         </div>
+
+
+      </div>
+
+      <p style="font-size:16px; padding:0; margin:0;">Hover over any language on the map to learn more about it!</p>
+
+      <!-- Slider -->
+      <div class="sliderContainer">
+         <input type="range" min="-6000" max="2000" value="-6000" class="slider" id="theSlider">
+
+         <!-- Slider info -->
+         <div class="sliderInfo">
+            <div>6000 BCE</div>
+            <div>5000 BCE</div>
+            <div>4000 BCE</div>
+            <div>3000 BCE</div>
+            <div>2000 BCE</div>
+            <div>1000 BCE</div>
+            <div>0</div>
+            <div>1000 CE</div>
+            <div>2000 CE</div>
+         </div>
+      </div>
+
+      <br />
+
+      <!-- Write up of what's happening on map -->
+      <div class="writeUp">
+         <b style="font-size: 20px;" id="writeUpTime">6000 BCE</b>
+         <div id="writeUpText">
+            initial text initial text initial text initial text initial text initial text initial text initial text initial text
+            initial text initial text initial text initial text initial text initial text initial text initial text initial text
+            initial text initial text initial text initial text initial text initial text initial text initial text initial text
+         </div>
+      </div>
+
+      <!-- Line break -->
+      <br />
+
+      <!-- sources & credits -->
+      <div class="sources">
+         <span style="font-size: 20px;">Sources</span>
+         <br />
+
+         Kuzoian, Alex. "This Animated Map Shows How European Languages Evolved." <br />
+         &nbsp;&nbsp;Business Insider. Last modified December 10, 2014. Accessed January 20, <br />
+         &nbsp;&nbsp;2022. https://www.businessinsider.com/ <br />
+         &nbsp;&nbsp;map-how-indo-european-languages-evolved-2014-12?op=1.
+         <br /><br />
+
+         Marian, Jakub. "European languages by number of native speakers." <br />
+         &nbsp;&nbsp;jakubmarian.com. Accessed January 20, 2022. https://jakubmarian.com/ <br />
+         &nbsp;&nbsp;european-languages-by-number-of-native-speakers/.
+         <br /><br />
+
+         Angmohdan. "The Root of All Human Languages." angmohdan.com. Last modified <br />
+         &nbsp;&nbsp;October 26, 2014. Accessed January 20, 2022. https://www.angmohdan.com/ <br />
+         &nbsp;&nbsp;the-root-of-all-human-languages/.
+         <br /><br />
+
+         Klein, Jared S., Brian D. Joseph, Matthias Fritz, and Mark Wenthe. Handbook of <br />
+         &nbsp;&nbsp;Comparative and Historical Indo-European Linguistics: An International <br />
+         &nbsp;&nbsp;Handbook. Berlin: De Gruyter Mouton, 2017.
+         <br /><br />
+
+         The Editors of Encyclopaedia Britannica. "Hittite language." Encyclopaedia <br />
+         &nbsp;&nbsp;Britannica. Last modified March 8, 2016. Accessed January 20, 2022. <br />
+         &nbsp;&nbsp;https://www.britannica.com/topic/Hittite-language.
+         <br /><br />
+
+         The Editors of Encyclopaedia Britannica. "Balto-Slavic languages." Encyclopaedia <br />
+         &nbsp;&nbsp;Britannica. Last modified July 20, 1998. Accessed January 20, 2022. <br />
+         &nbsp;&nbsp;https://www.britannica.com/topic/Balto-Slavic-languages.
+         <br /><br />
+
+         Bada, Ferdinand. "Which Countries Speak Farsi?" WorldAtlas. Last modified <br />
+         &nbsp;&nbsp;December 19, 2018. Accessed January 20, 2022. https://www.worldatlas.com/ <br />
+         &nbsp;&nbsp;articles/where-is-farsi-spoken.html.
+         <br /><br />
+
+         Majumder, Sanjoy. "Why is Sanskrit so controversial?" BBC News. Last modified <br />
+         &nbsp;&nbsp;August 13, 2014. Accessed January 20, 2022. https://www.bbc.com/news/ <br />
+         &nbsp;&nbsp;world-asia-28755509.
+         <br /><br />
+
+         Kumar, Nitin. "Hindi Langauge Blog." Transparent Language. Last modified June <br />
+         &nbsp;&nbsp;28, 2011. Accessed January 20, 2022. https://blogs.transparent.com/hindi/ <br />
+         &nbsp;&nbsp;hindi-its-origin/.
+         <br /><br />
+
+         "Urdu speaking countries." WorldData.info. Accessed January 20, 2022. <br />
+         &nbsp;&nbsp;https://www.worlddata.info/languages/urdu.php.
+         <br /><br />
+
+         Greene, David. "Celtic languages." Encyclopaedia Britannica. Last modified April <br />
+         &nbsp;&nbsp;18, 2017. Accessed January 20, 2022. https://www.britannica.com/topic/ <br />
+         &nbsp;&nbsp;Celtic-languages.
+         <br /><br />
+
+         IrishCentral Staff. "How much Irish is spoken in Ireland?" IrishCentral. Last <br />
+         &nbsp;&nbsp;modified August 4, 2019. Accessed January 20, 2022. <br />
+         &nbsp;&nbsp;https://www.irishcentral.com/culture/education/ <br />
+         &nbsp;&nbsp;how-much-irish-is-spoken-in-ireland.
+         <br /><br />
+
+         Potter, Simeon. "English language." Encyclopaedia Britannica. Last modified <br />
+         &nbsp;&nbsp;December 15, 2021. Accessed January 20, 2022. https://www.britannica.com/ <br />
+         &nbsp;&nbsp;topic/English-language.
+         <br /><br />
+
+         The Editors of Encyclopaedia Britannica. "Dutch language." Encyclopaedia Britannica.<br />
+         &nbsp;&nbsp;Last modified June 19, 2021. Accessed January 20, 2022.<br />
+         &nbsp;&nbsp;https://www.britannica.com/topic/Dutch-language.
+
+      </div>
+      <br /><br />
+
+   </body>
+ </html>
